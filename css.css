@@ -1,0 +1,94 @@
+
+body{
+    background-color: beige;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    color: #2c3e50;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.step {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+}
+.step h3 {
+    color: #2980b9;
+}
+.step p {
+    font-size: 16px;
+}
+.button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+p1{
+    color: rgb(3, 118, 17);
+}
+#animated-footer {
+    position: fixed;
+    bottom: -100px; /* بداية الحركة خارج الشاشة */
+    left: 0;
+    width: 100%;
+    background-color: #000000d4;
+    color: #bab1b1e0;
+    text-align: center;
+    padding: 0px 0;
+    margin: -10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    transition: bottom 1s ease-in-out; /* الحركة سلسة */
+}
+
+#animated-footer.show {
+    bottom: 0; /* تحريك الفوتر إلى موقعه الطبيعي */
+}
+
+
